@@ -1,5 +1,5 @@
 #Student name : Ahmed Yussuf
-
+Made the project Alone . 
 Conceptual Design in the repository
 ER diagram  Picture is in ER diagram.pdf
 Relational schemas diagram  is in Relational schemas.pdf
