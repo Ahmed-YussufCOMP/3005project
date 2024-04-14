@@ -1,1 +1,19 @@
 # 3005project
+ ER diagram is in the file called ER diagram.pdf If you wanted to visualy see the diagram. 
+Users: Represents members, trainers, and administrators of the Health and Fitness Club. Includes attributes like username, password, and member status.
+Trainer: Represents fitness trainers employed by the club. Includes attributes such as Trainername, specialization, and availability.
+ExerciseStats: Contains information about different exercises, their fitness achievements, and health statistics.
+Fitness_Done: Records fitness activities completed by members, including the exercise performed and health metrics.
+Fitness_Goals: Stores fitness goals set by members, including the exercise to achieve and associated health metrics.
+Room_status: Tracks the availability status of rooms within the club.
+Equipment_maintenance_monitoring: Monitors the availability of fitness equipment.
+Payment: Records payment information made by members for club services.
+
+Each member can have one assigned trainer for 1 personalized training sessions.
+Trainers can manage multiple fitness activities for different members, but each fitness activity is managed by only one trainer.
+Each fitness activity completed by a member is associated with only that member.
+Each fitness goal set by a member is associated with only that member.
+Each room in the club has only one availability status at any given time.
+Each piece of equipment has only one availability status at any given time.
+Each payment transaction is associated with only one member.
+
